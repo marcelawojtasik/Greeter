@@ -1,2 +1,2 @@
-# SimpleDex
-Proyecto SimpleDex ETHKipu
+# Greeter
+Proyecto Greeter ETHKipu
