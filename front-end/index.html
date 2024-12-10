@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interacción con Greeter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+    <button onclick="connect()">Connect wallet</button>
+    <p id="accountAddress"></p>
+    <div class="container">
+        <h1>Interaction with Greeter Contract</h1>
+        <button id="readButton" onclick="read()">Read Last Greeting</button>
+        <p id="greeting"></p>
+        <input type="text" name="value2change" id="value2change">
+        <button id="writeButton" onclick="Write()">Change Greeting</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
